@@ -1,0 +1,366 @@
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("../img/plane.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /*blur effect */
+  transform: scale(1.1);
+   /*filter: blur(4px);
+  -webkit-filter: blur(5px);*/
+}
+
+.title {
+display: block;
+font-size: 22px;
+color: white;
+padding-top: 50px;
+text-align: center;
+}
+
+div.homeOptions{
+	text-align: center;
+	margin-top: 100px;
+	margin-right: 30%;
+	margin-left: 30%;
+}
+
+.oneline {
+ width: 150px;
+ height: auto;
+ border: solid 1px white;
+ border-radius: 30px 10px;
+ display: inline-block;
+ opacity: 0.5;
+ background-color: white;
+}
+
+.oneline:hover {
+  transform: scale(1.05); 
+}
+
+p.temp{
+	content:url(../img/thermo.png);
+	width: 60px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+p.periode{
+	content:url(../img/calender.png);
+	width: 60px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+
+p.textTitle{
+	font-size: 14px;
+	color: darkgrey;
+}
+
+input#amount{
+	border: 0;
+    color: #777!important;
+    font-weight: 300!important;
+    font-size: 30px!important;
+    text-align: center;
+    width: 100%;
+}
+
+/*  Calender   */
+/*
+ * Copyright (c) 2012-2013 Thibaut Courouble
+ * http://www.cssflow.com
+ * Licensed under the MIT License
+ *
+ * Sass/SCSS source: https://goo.gl/yUpMF
+ * PSD by Liam McCabe: https://goo.gl/RlGjy
+ */
+
+html, body {
+  min-height: 100%;
+}
+
+body {
+  font: 12px/20px "Lucida Grande", Tahoma, Verdana, sans-serif;
+  color: #404040;
+  background: #282537;
+  background-image: -webkit-radial-gradient(top, circle cover, #3c3b52 0%, #252233 80%);
+  background-image: -moz-radial-gradient(top, circle cover, #3c3b52 0%, #252233 80%);
+  background-image: -o-radial-gradient(top, circle cover, #3c3b52 0%, #252233 80%);
+  background-image: radial-gradient(top, circle cover, #3c3b52 0%, #252233 80%);
+}
+
+.month-picker {
+  margin: 80px auto;
+  width: 600px;
+  text-align: center;
+}
+
+.month-picker-fieldset {
+  display: inline-block;
+  padding: 0 7px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.7), inset 0 2px 2px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.7), inset 0 2px 2px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+}
+
+.month-picker-fieldset > input {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.month-picker-label, .month-picker-nav {
+  display: inline-block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 25px;
+  vertical-align: top;
+  cursor: pointer;
+}
+/*
+ * Copyright (c) 2012-2013 Thibaut Courouble
+ * http://www.cssflow.com
+ * Licensed under the MIT License
+ *
+ * Sass/SCSS source: https://goo.gl/yUpMF
+ * PSD by Liam McCabe: https://goo.gl/RlGjy
+ */
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  font: 12px/20px "Lucida Grande", Tahoma, Verdana, sans-serif;
+  color: #404040;
+  background: #282537;
+  background-image: -webkit-radial-gradient(
+    top,
+    circle cover,
+    #3c3b52 0%,
+    #252233 80%
+  );
+  background-image: -moz-radial-gradient(
+    top,
+    circle cover,
+    #3c3b52 0%,
+    #252233 80%
+  );
+  background-image: -o-radial-gradient(
+    top,
+    circle cover,
+    #3c3b52 0%,
+    #252233 80%
+  );
+  background-image: radial-gradient(top, circle cover, #3c3b52 0%, #252233 80%);
+}
+
+.month-picker {
+  margin: 80px auto;
+  width: auto;
+  text-align: center;
+}
+
+.month-picker-fieldset {
+  display: inline-block;
+  padding: 0 7px;
+  background: white;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.7),
+    inset 0 2px 2px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.7),
+    inset 0 2px 2px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+}
+
+.month-picker-fieldset > input {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.month-picker-label,
+.month-picker-nav {
+  display: inline-block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 25px;
+  vertical-align: top;
+  cursor: pointer;
+}
+
+input:focus + .month-picker-label,
+.month-picker-nav:focus {
+  outline: 2px solid #5e9ed7;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+
+.month-picker-label {
+  position: relative;
+  padding: 0 7px;
+  font-size: 12px;
+  font-weight: 200;
+  color: #8d8ba6;
+  text-transform: uppercase;
+  text-shadow: 0 1px 1px black;
+}
+
+.month-picker-label,
+.month-picker-label:before {
+  -webkit-transition: 0.15s ease-out;
+  -moz-transition: 0.15s ease-out;
+  -o-transition: 0.15s ease-out;
+  transition: 0.15s ease-out;
+}
+
+.month-picker-label:before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  bottom: -2px;
+  left: -2px;
+  right: -2px;
+  border: 2px solid;
+  border-color: #e4e0fb #b6b1d1 #b6b1d1;
+  border-radius: 6px;
+  opacity: 0;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+}
+
+input:checked + .month-picker-label {
+  color: white;
+  background: #302e42;
+  background-image: -webkit-linear-gradient(top, #302e42, #29253b);
+  background-image: -moz-linear-gradient(top, #302e42, #29253b);
+  background-image: -o-linear-gradient(top, #302e42, #29253b);
+  background-image: linear-gradient(to bottom, #302e42, #29253b);
+}
+
+input:checked + .month-picker-label:before {
+  opacity: 1;
+}
+
+.month-picker-nav {
+  width: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.1);
+}
+
+input:focus + .month-picker-label, .month-picker-nav:focus {
+  outline: 2px solid #5e9ed7;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+
+.month-picker-label {
+  position: relative;
+  padding: 0 7px;
+  font-size: 12px;
+  font-weight: 200;
+  color: #8d8ba6;
+  text-transform: uppercase;
+  text-shadow: 0 1px 1px black;
+}
+
+.month-picker-label, .month-picker-label:before {
+  -webkit-transition: 0.15s ease-out;
+  -moz-transition: 0.15s ease-out;
+  -o-transition: 0.15s ease-out;
+  transition: 0.15s ease-out;
+}
+
+.month-picker-label:before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  bottom: -2px;
+  left: -2px;
+  right: -2px;
+  border: 2px solid;
+  border-color: #e4e0fb #b6b1d1 #b6b1d1;
+  border-radius: 6px;
+  opacity: 0;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+}
+
+input:checked + .month-picker-label {
+  color: white;
+  background: #302e42;
+  background-image: -webkit-linear-gradient(top, #302e42, #29253b);
+  background-image: -moz-linear-gradient(top, #302e42, #29253b);
+  background-image: -o-linear-gradient(top, #302e42, #29253b);
+  background-image: linear-gradient(to bottom, #302e42, #29253b);
+}
+
+input:checked + .month-picker-label:before {
+  opacity: 1;
+}
+
+.month-picker-nav {
+	display: none;
+  width: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.1);
+}
+
+.button, button {
+	opacity: 0.5!important;
+	background-color: white!important;
+	border: solid 1px white!important;
+	border-radius: 30px 10px!important;
+}
+
+div.buttonSend{
+	margin-bottom: 200px;
+	margin-top: 15px;
+	display: flex;
+  	justify-content: center;
+}
+
+div.result{
+	text-align: center;
+	background-color: white;
+	padding-bottom: 50px;
+}
+
+.titleH2{
+	padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
